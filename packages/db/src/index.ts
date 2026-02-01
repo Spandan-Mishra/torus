@@ -22,3 +22,5 @@ export const db = drizzle(pool, {
         meeting,
     }
 });
+
+export { eq } from 'drizzle-orm';
